@@ -48,6 +48,25 @@ This is a simple MERN stack number guessing game. The game allows users to play,
 
 ---
 
+## Dependencies
+
+### Server- Backend
+- `bcryptjs`: ^2.4.3
+- `cors`: ^2.8.5
+- `dotenv`: ^16.0.3
+- `express`: ^4.18.2
+- `jsonwebtoken`: ^9.0.0
+- `mongoose`: ^7.0.0
+
+### Client- Frontend
+- `axios`: ^1.4.0
+- `react`: ^18.2.0
+- `react-confetti`: ^6.0.0
+- `react-dom`: ^18.2.0
+- `react-router-dom`: ^6.4.0
+- `vite`: ^4.0.0
+- `tailwindcss`: ^3.2.0
+
 ## Setup Instructions
 
 ### Prerequisites:
@@ -96,44 +115,6 @@ npm run dev
 
 This will start the frontend development server on `http://localhost:5173`.
 
-## Setting Up a React Game App
-
-**1. Clone the Repository**
-
-```bash
-git clone https://github.com/RishabJha134/Shram-Assignment-React-Game-App.git
-```
-
-**2. Set Up the Backend**
-
-```bash
-cd Shram-Assignment-React-Game-App/server
-npm install
-```
-
-Create a `.env` file in the `server` directory with the following content:
-
-```
-MONGO_URI=<your-mongodb-connection-string>
-JWT_SECRET=<your-jwt-secret>
-PORT=5000
-```
-
-Replace placeholders with your actual values.
-
-```bash
-npm run start
-```
-
-**3. Set Up the Frontend**
-
-```bash
-cd ../client
-npm install
-npm run dev
-```
-
-This will start the frontend development server on `http://localhost:5173`.
 
 ## API Endpoints
 
@@ -150,9 +131,9 @@ The backend provides the following routes:
 * **Frontend:** Deployed on Vercel.
 * **Backend:** Hosted on a server with MongoDB Atlas for data storage.
 
-## GitHub Repo
+## Live Demo
 
-[Shram Assignment React Game Repo]
+[Check out the live app here!](https://shram-assignment-react-game-app.vercel.app/)
 
 ## Contributing
 
