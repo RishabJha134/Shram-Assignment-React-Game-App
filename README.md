@@ -125,6 +125,7 @@ The backend provides the following routes:
 * **GET /api/game/highscore:** Fetch the current user's high score.
 * **GET /api/game/user-data:** Fetch the current user's past scores.
 * **POST /api/game/highscore:** Update the user's high score.
+* **GET /api/game/leaderboard:** Route to get leaderboard (top 10 high scores).
 
 ## Deployment
 
